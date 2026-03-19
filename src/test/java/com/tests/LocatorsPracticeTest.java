@@ -32,7 +32,16 @@ public class LocatorsPracticeTest {
         driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("Test User");
         driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("testuser@example.com");              
         driver.findElement(By.xpath("//input[@type='text'][2]")).sendKeys("1234567890");
-        driver.findElement(By.cssSelector(".reset-pwd-btn")).click();   
+        driver.findElement(By.cssSelector(".reset-pwd-btn")).click();  
+        String resetMsg = driver.findElement(By.cssSelector("p.infoMsg")).getText();
+        System.out.println("Reset message: " + resetMsg);
+         Thread.sleep(2000);
+         driver.findElement(By.className("go-to-login-btn")).click();
+         driver.findElement(By.id("inputUsername")).sendKeys("testuser");
+         driver.findElement(By.name("inputPassword")).sendKeys("rahulshettyacademy");   
+            driver.findElement(By.cssSelector(".submit.signInBtn")).click();
+             String welcomeMsg = driver.findElement(By.tagName("h2")).getText();
+             System.out.println("Welcome message: " + welcomeMsg);
     }
     @AfterMethod
     public void tearDown() {

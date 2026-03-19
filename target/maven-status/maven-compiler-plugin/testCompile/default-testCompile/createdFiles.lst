@@ -1,4 +1,6 @@
 com\tests\api\GetUserApiTest.class
 com\tests\LocatorsPracticeTest.class
 com\tests\FirstTest.class
+com\tests\SeleniumExampleTest.class
 com\tests\SecondTest.class
+com\tests\SecondTestTest.class
