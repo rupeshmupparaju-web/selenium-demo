@@ -2,6 +2,8 @@
   <test name="Sample Test">
     <classes>
       <class name="com.tests.FirstTest"/>
+      <class name="com.tests.SeleniumExampleTest"/>
+      <class name="com.tests.SecondTestTest"/>
     </classes>
   </test>
 </suite>

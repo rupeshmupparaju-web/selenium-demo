@@ -1,3 +1,4 @@
+com\tests\api\GetUserApiTest.class
 com\tests\LocatorsPracticeTest.class
-com\tests\AppTest.class
 com\tests\FirstTest.class
+com\tests\SecondTest.class

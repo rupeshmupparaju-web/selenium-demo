@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-05T15:12:45 CST" name="Selenium Suite" finished-at="2026-02-05T15:12:50 CST" duration-ms="4938">
+  <suite started-at="2026-03-19T08:52:59 CDT" name="Selenium Suite" finished-at="2026-03-19T08:53:09 CDT" duration-ms="10166">
     <groups>
     </groups>
-    <test started-at="2026-02-05T15:12:45 CST" name="Sample Test" finished-at="2026-02-05T15:12:50 CST" duration-ms="4938">
+    <test started-at="2026-03-19T08:52:59 CDT" name="Sample Test" finished-at="2026-03-19T08:53:09 CDT" duration-ms="10166">
+      <class name="com.tests.SeleniumExampleTest">
+        <test-method signature="mainShouldRunWithoutThrowing_whenChromeDriverAvailable()[pri:0, instance:com.tests.SeleniumExampleTest@45018215]" started-at="2026-03-19T08:53:03 CDT" name="mainShouldRunWithoutThrowing_whenChromeDriverAvailable" finished-at="2026-03-19T08:53:06 CDT" duration-ms="3219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainShouldRunWithoutThrowing_whenChromeDriverAvailable -->
+      </class> <!-- com.tests.SeleniumExampleTest -->
+      <class name="com.tests.SecondTestTest">
+        <test-method signature="mainShouldNotThrow_whenChromeDriverAvailable()[pri:0, instance:com.tests.SecondTestTest@65d6b83b]" started-at="2026-03-19T08:53:06 CDT" name="mainShouldNotThrow_whenChromeDriverAvailable" finished-at="2026-03-19T08:53:09 CDT" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainShouldNotThrow_whenChromeDriverAvailable -->
+      </class> <!-- com.tests.SecondTestTest -->
       <class name="com.tests.FirstTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.FirstTest@527e5409]" started-at="2026-02-05T15:12:45 CST" name="setup" finished-at="2026-02-05T15:12:49 CST" duration-ms="4016" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.FirstTest@10db82ae]" started-at="2026-03-19T08:52:59 CDT" name="setup" finished-at="2026-03-19T08:53:02 CDT" duration-ms="2971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openGoogle()[pri:0, instance:com.tests.FirstTest@527e5409]" started-at="2026-02-05T15:12:49 CST" name="openGoogle" finished-at="2026-02-05T15:12:50 CST" duration-ms="744" status="PASS">
+        <test-method signature="openGoogle()[pri:0, instance:com.tests.FirstTest@10db82ae]" started-at="2026-03-19T08:53:02 CDT" name="openGoogle" finished-at="2026-03-19T08:53:03 CDT" duration-ms="1005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGoogle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FirstTest@527e5409]" started-at="2026-02-05T15:12:50 CST" name="tearDown" finished-at="2026-02-05T15:12:50 CST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FirstTest@10db82ae]" started-at="2026-03-19T08:53:03 CDT" name="tearDown" finished-at="2026-03-19T08:53:03 CDT" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
